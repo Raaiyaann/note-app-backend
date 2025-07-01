@@ -90,7 +90,7 @@ const updateNotesByIdHandler = (request, h) => {
 
     const response = h.response({
       status: "success",
-      message: "Catatan berhasil Ditambahkan!",
+      message: "Catatan berhasil Diupdate!",
     });
     response.code(200);
     return response;
